@@ -1,0 +1,25 @@
+{
+  "name": "mvc-architecture",
+  "version": "1.0.0",
+  "description": "- Separation of Concerns(SOC)\r - It increases codes readability and scalability(reuse code)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webfaisalbd/MVC-ARCHITECTURE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webfaisalbd/MVC-ARCHITECTURE/issues"
+  },
+  "homepage": "https://github.com/webfaisalbd/MVC-ARCHITECTURE#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}

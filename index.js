@@ -1,22 +1,3 @@
-# MVC  ARCHITECTURE
-### MVC = (Model View Controller)
-
-- Separation of Concerns(SOC)
-- It increases codes readability and scalability(reuse code)
-
----
-
-- Models(deals with database)
-- Views(what users see)
-- Routes
-- Controllers(Connection point between model and views)
-- Controllers have all logic
-
----
-
-`Without MVC ARCHITECTURE, FULL CODE:`
-
-```javascript
 const express = require('express');
 
 const app = express();
@@ -72,7 +53,3 @@ app.use((req,res,next)=>{
 app.listen(PORT, () => {
     console.log(`Server is running at http://localhost:${PORT}`);
 });
-```
-
----
-
